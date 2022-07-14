@@ -1,0 +1,95 @@
+ .navbar{
+            border-bottom:4px solid gray;
+            height: 120px;
+            background-color: white;
+            position:sticky;
+            top:0px;
+            display: flex;
+        }
+        .logo{
+        
+        margin: 10px;
+        font-family: 'Rubik Moonrocks', cursive;
+        font-size: 40;
+        border: 2px solid yellowgreen;
+        height: 300px;
+
+        }
+      
+        .information{
+            font: 1em sans-serif;
+            border: 2px solid black;
+            width: 70%;
+            margin-left: 100px;
+        }
+        .news{
+            float: left;
+            margin: 20px;
+
+        }
+        .news:hover{
+        text-decoration: underline;
+        }
+        
+        .news:hover .newsdropdown{   display:block;}
+        .newsdropdown{
+          position: absolute;
+          width: 200px;
+          height: 250px;
+          border: 2px solid black;
+          background-color: white;
+          display:none;
+         
+        }
+        .newslist{
+        list-style:none;
+        font-family: 'Roboto', sans-serif;
+        font-size: x-large;
+        
+        }
+        .element{
+        margin-bottom: 10px;
+        
+        }
+        .features{
+            float: left;
+            margin: 20px;
+        }
+        
+        .features:hover{
+        text-decoration: underline;
+          
+        }
+        .economy{
+            float: left;
+            margin: 20px;
+
+        }
+        .economy:hover{
+            
+            text-decoration: underline;
+
+        }
+        .economy:hover .newarr{display:block;}
+        .opinion{
+            float: left;
+            margin: 20px;
+
+        }
+        .opinion:hover{
+            
+            text-decoration: underline;
+
+        }
+         .opinion:hover .newarr{display:block;}
+        .videos{
+            float: left;
+            margin: 20px;
+
+        }
+        .videos:hover{
+    
+            text-decoration: underline;
+
+        }
+         
