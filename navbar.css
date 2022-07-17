@@ -1,29 +1,28 @@
  .navbar{
-            border-bottom:4px solid gray;
+           
             height: 120px;
             background-color: white;
-            position:sticky;
-            top:0px;
             display: flex;
+            height:190px;
         }
         .logo{
         
         margin: 10px;
         font-family: 'Rubik Moonrocks', cursive;
         font-size: 40;
-        border: 2px solid yellowgreen;
-        height: 300px;
+    
 
         }
       
         .information{
             font: 1em sans-serif;
-            border: 2px solid black;
+           
             width: 70%;
             margin-left: 100px;
+              display: flex;
         }
         .news{
-            float: left;
+           
             margin: 20px;
 
         }
@@ -52,7 +51,7 @@
         
         }
         .features{
-            float: left;
+            
             margin: 20px;
         }
         
@@ -61,7 +60,7 @@
           
         }
         .economy{
-            float: left;
+          
             margin: 20px;
 
         }
@@ -72,7 +71,7 @@
         }
         .economy:hover .newarr{display:block;}
         .opinion{
-            float: left;
+            
             margin: 20px;
 
         }
@@ -83,7 +82,7 @@
         }
          .opinion:hover .newarr{display:block;}
         .videos{
-            float: left;
+           
             margin: 20px;
 
         }
