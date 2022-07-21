@@ -10,6 +10,12 @@
         margin: 10px;
         font-family: 'Rubik Moonrocks', cursive;
         font-size: 40;
+        color: blue;
+        border:2px solid blue;
+        border-radius:70px;
+        background-color:yellow;
+        width:300px;
+        text-align:center;
     
 
         }
