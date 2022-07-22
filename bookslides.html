@@ -11,41 +11,76 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <style>
-    .general-container{
-    width:100%;
-    display:flex;
    
-    
-    
-    }
     .slide-container{
     width:500px;
     border:4px solid black;
     overflow:hidden;
     margin:auto;
-    
     background-color:black;
     
     
     }
+    
+    
     .image-container{
     width:8500px;
     position:relative;   
     transition:left 2s;
     
     }
+    
+    
     .slide{
     width:500px;
-    height:600px;
+    height:450px;
     float:left;
     background-color:white;
     text-align:center;
     }
+    
+    
     .name{
     font-size: 30;
     font-family: 'Lobster', cursive;
     }
+    
+    
+     .leftarrow{
+     
+     
+     width:20px;
+     background-color: white;
+     padding: 10;
+     position: relative;
+     top: -300;
+     left: 50;
   
+   transform: rotate(180deg);
+   -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+    
+    }
+     .leftarrow:hover{
+  background-color: wheat; 
+  }
+  
+  .rightarrow{
+  width:20px;
+  background-color: white;
+  padding: 10;
+  position: relative;
+  top:-270px;
+  left:430px;
+   
+
+  }
+  
+  .rightarrow:hover{
+  background-color: wheat;
+  }
     
     
     
@@ -135,8 +170,7 @@
     </style> 
 </head>
 <body>
-<div class="general-container">
-</div>
+
 <div class="slide-container">
 <span id="slider1"></span>
 <span id="slider2"></span>
@@ -271,23 +305,14 @@ Margret Robie
 </div>
 
 
+</div>
+<div class="leftarrow">
+<svg xmlns="http://www.w3.org/2000/svg" class="a8e3563c _83b7a232" viewBox="0 0 32 32"><path d="M7.55 3.36c-.8-.8-.7-2.1.1-2.8.8-.7 2-.7 2.7 0l14 14c.8.8.8 2 0 2.8l-14 14c-.8.8-2 .8-2.8.1-.8-.8-.8-2-.1-2.8l.1-.1 12.6-12.5-12.6-12.7z"></path></svg>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="rightarrow">
+<svg xmlns="http://www.w3.org/2000/svg" class="a8e3563c _83b7a232" viewBox="0 0 32 32"><path d="M7.55 3.36c-.8-.8-.7-2.1.1-2.8.8-.7 2-.7 2.7 0l14 14c.8.8.8 2 0 2.8l-14 14c-.8.8-2 .8-2.8.1-.8-.8-.8-2-.1-2.8l.1-.1 12.6-12.5-12.6-12.7z"></path></svg>
 </div>
 
 
